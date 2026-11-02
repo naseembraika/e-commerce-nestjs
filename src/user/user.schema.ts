@@ -52,7 +52,7 @@ export class User {
   @Prop({ type: String, trim: true })
   address: string;
 
-  @Prop({ type: Boolean, enum: [true, false] })
+  @Prop({ type: Boolean })
   active: boolean;
 
   @Prop({ type: String, trim: true })
